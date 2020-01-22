@@ -1,0 +1,7 @@
+declare 
+integer #a ;
+integer #b ;
+bool #c ;
+
+main
+{ #c := #a * #b ; }

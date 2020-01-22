@@ -369,7 +369,7 @@ namespace NavigationDrawerPopUpMenu2.Clases.Semantico
                         compararTipos(atr1, atr2);
                         atr.principio = Next();
                         atr.siguiente = atr.principio + 1;
-                        atr.valor = dameTemporal(atr1.tipo);
+                        atr.valor = DameTemporal(atr1.tipo);
                         Gen("/", atr1.valor.ToString(), atr2.valor.ToString(), atr.valor.ToString());
                         atr.noterminal = reglasReconocidas[i].izq;
                         atr.name = "termino";
